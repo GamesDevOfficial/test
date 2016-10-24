@@ -30,7 +30,7 @@ function test ()
 				callback(xhr.responseText);					
 			} 
 		};	
-		xhr.open("POST", "test.php");
+		xhr.open("POST", "http://gamesdev.ihoster.fr/tests/ajax/test.php");
 		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 		xhr.send('text=testtext');
 	}
