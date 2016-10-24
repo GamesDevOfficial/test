@@ -20,6 +20,7 @@ function getXMLHttpRequest() {
 }
 function test ()
 {
+	document.getElementById('p2').innerHTML = 'p2 ok';	
 	function request(callback) 
 	{
 		var xhr = getXMLHttpRequest();	
