@@ -16,7 +16,7 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
       Hardeep Shoker
   </author>
-  <access origin="*"/>
+  <access origin="http://gamesdev.ihoster.fr"/>
 
 <plugin name="cordova-plugin-whitelist" version="1" />
 <allow-intent href="http://*/*" />
